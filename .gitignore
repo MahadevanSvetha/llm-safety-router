@@ -1,0 +1,26 @@
+# Local environments and generated artifacts
+**/venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and tool output
+.deepeval/
+promptfoo-results/
+*.log
+
+# Alternative baseline retained locally but not part of this safety-router app
+/llm-python/
